@@ -1,39 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+
 .navbar {
-    overflow: hidden;
-    background-color: #333;
-   }
-
-.navbar {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px;  
-    text-decoration: none;
+    position: fixed;
+    width: 100%;
+    margin: 10px;
+    background-color: green;
 }
 
-
-.blog1 {
-
-
+.about {
+    position: relative;
+    left: 315px;
 }
 
-.alien3 {
-
-}
-
-.blog2 {
-
-}
-
-.aliens {
-
-}
-
-.blog3 {
-
-}
-
-.alien {
-
+.menu {
+    position: relative;
+    left:150px;
 }
