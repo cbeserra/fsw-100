@@ -1,22 +1,33 @@
-html, body {
-    margin: 0;
-    padding: 0;
-
-}
-
 .navbar {
+    overflow: hidden;
+    background-color: black;
     position: fixed;
+    top: 0;
     width: 100%;
-    margin: 10px;
-    background-color: green;
 }
-
-.about {
-    position: relative;
-    left: 315px;
+.navbar a {  
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-
-.menu {
-    position: relative;
-    left:150px;
+.column {
+    float: left;
+    padding: 70px;
+   
+}
+.left {
+    width: 25%;
+}
+.right {
+    width: 50%;
+}
+.row {
+    display: table;
+    clear:  both;
+}
+p {
+    font-size: 25.5px;
 }
