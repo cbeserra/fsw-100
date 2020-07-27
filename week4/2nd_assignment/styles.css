@@ -40,7 +40,6 @@ section {
 .menu h1 {
     font-size: xx-large;
     text-shadow: 3px 3px darkred;
-    text-underline-position: below;
 }
 li {
     color: red;
