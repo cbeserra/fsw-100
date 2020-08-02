@@ -1,0 +1,29 @@
+.grid-container{
+    display: grid;
+    border-radius: 10px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.header {
+    background-color: red;
+}
+.sidebar {
+    background-color: green;
+    
+}
+.content {
+    background-color: blue;
+    
+}
+.sidebar2 {
+    background-color: purple;
+    
+}
+.footer {
+    background-color: yellow;
+    
+}
+p {
+    font-size: 10px;
+}
