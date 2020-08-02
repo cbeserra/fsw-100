@@ -1,29 +1,25 @@
 .grid-container{
     display: grid;
-    border-radius: 10px;
     grid-gap: 10px;
     padding: 10px;
 }
-
 .header {
     background-color: red;
+    border-radius:  20px;
 }
 .sidebar {
     background-color: green;
-    
+    border-radius:  20px;
 }
 .content {
     background-color: blue;
-    
+    border-radius:  20px;
 }
 .sidebar2 {
     background-color: purple;
-    
+    border-radius:  20px;
 }
 .footer {
     background-color: yellow;
-    
-}
-p {
-    font-size: 10px;
+    border-radius:  20px;
 }
