@@ -5,13 +5,16 @@
 .sidebar {
     background-color: white;
     border-radius:  20px;
+    letter-spacing: normal;
+    text-align: left;
+    padding: 10px;
 }
 .footer {
     text-align: center;
     font-family: "Fredoka One";
     color: blue;
     letter-spacing: 6px;
-    font-size: 5vw;
+    font-size: 3vw;
     text-shadow: 5px 5px gray;
 }
 p {
@@ -19,7 +22,7 @@ p {
     font-family: "Fredoka One";
     color: red;
     letter-spacing: 6px;
-    font-size: 100px;
+    font-size: 110px;
     text-shadow: 5px 5px black;
 }
 a {
@@ -28,13 +31,17 @@ a {
 }
 table, th, td {
     border:1px solid blue;
-    padding: 15 px;
+    padding:55px;
     text-align: center;
+}
+th, td {
+    color: white;
+    font-size: 3vw;
 }
 li {
     text-align: center;
     color: orange;
-    font-size: 5vw;
+    font-size: 6vw;
 }
 img {
     width: 100%;
@@ -45,3 +52,4 @@ img {
 [class*="flex-container"] {
     width:  100%;
 }
+
