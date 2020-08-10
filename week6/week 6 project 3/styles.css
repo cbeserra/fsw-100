@@ -22,18 +22,19 @@
 .footer {
     background-color: yellow;
     border-radius:  20px;
-}
-p {
     text-align: center;
     font-family: "Fredoka One";
     color: red;
     letter-spacing: 6px;
     font-size: 5vw;
-    text-shadow: 5px 5px gray;
+    text-shadow: 5px 5px black;
 }
 a {
     color: white;
     font-size: 4vw;
+}
+table, th, td {
+    border:1px solid black;
 }
 
 /* For mobile phones: */
