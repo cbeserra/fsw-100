@@ -8,7 +8,7 @@
     border-radius:  20px;
 }
 .sidebar {
-    background-color: green;
+    background-color: white;
     border-radius:  20px;
 }
 .content {
@@ -16,7 +16,7 @@
     border-radius:  20px;
 }
 .sidebar2 {
-    background-color: purple;
+    background-color: red;
     border-radius:  20px;
 }
 .footer {
@@ -29,8 +29,12 @@ p {
     font-family: "Fredoka One";
     color: red;
     letter-spacing: 6px;
-    font-size: 2vw;
-    text-shadow: 5px 5px black;
+    font-size: 5vw;
+    text-shadow: 5px 5px gray;
+}
+a {
+    color: white;
+    font-size: 4vw;
 }
 
 /* For mobile phones: */
