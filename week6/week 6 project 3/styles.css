@@ -3,30 +3,29 @@
     grid-gap: 10px;
     padding: 0px;
 }
-.header {
-    background-color: red;
-    border-radius:  20px;
-}
 .sidebar {
     background-color: white;
     border-radius:  20px;
 }
-.content {
-    background-color: blue;
-    border-radius:  20px;
-}
 .sidebar2 {
-    background-color: red;
-    border-radius:  20px;
+    background-color: white;
+    text-align: center;
+
 }
 .footer {
-    background-color: yellow;
-    border-radius:  20px;
     text-align: center;
     font-family: "Fredoka One";
     color: red;
     letter-spacing: 6px;
     font-size: 5vw;
+    text-shadow: 5px 5px gray;
+}
+p {
+    text-align: center;
+    font-family: "Fredoka One";
+    color: red;
+    letter-spacing: 6px;
+    font-size: 100px;
     text-shadow: 5px 5px black;
 }
 a {
@@ -34,7 +33,15 @@ a {
     font-size: 4vw;
 }
 table, th, td {
-    border:1px solid black;
+    border:3px solid blue;
+    background-color: solid gray;
+    color: white;
+    text-align: center;
+}
+li {
+    text-align: center;
+    color: orange;
+    font-size: 5vw;
 }
 
 /* For mobile phones: */
