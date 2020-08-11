@@ -18,7 +18,11 @@
     line-height: 75px;
     font-size: 30px;
 }
-.sidebar {
+.flex-container > div:hover {
+    width: 100px;
+    background-color: cornflowerblue;
+}
+.sidebar1 {
     background-color: white;
     border-radius:  20px;
     letter-spacing: 10px;
@@ -60,8 +64,12 @@ a {
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-    color: white;
+    color: red;
   }
+.grid-container > div:hover {
+    width: 100px;
+    background-color: yellow;
+}
 h1 {
     color: orange;
     text-align: center;
@@ -70,7 +78,7 @@ h1 {
 }
 li {
     text-align: center;
-    color: orange;
+    color: pink;
     font-size: 6vw;
 }
 img {
