@@ -1,13 +1,28 @@
+.header {
+    font-size: 20px;
+    font-family: "Fredoka One";
+    text-align: center;
+    color: yellow;
+}
 .flex-container {
-    display: center;
-    grid-gap: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: Green;
+}
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
 }
 .sidebar {
     background-color: white;
     border-radius:  20px;
-    letter-spacing: normal;
-    text-align: left;
-    padding: 10px;
+    letter-spacing: 10px;
+    justify-content: space-evenly;
 }
 .footer {
     text-align: center;
@@ -20,23 +35,38 @@
 p {
     text-align: center;
     font-family: "Fredoka One";
-    color: red;
+    color: orangered;
     letter-spacing: 6px;
-    font-size: 110px;
-    text-shadow: 5px 5px black;
+    font-size: 20px;
+    text-shadow: 3px 3px black;
 }
 a {
     color: white;
-    font-size: 4vw;
-}
-table, th, td {
-    border:1px solid blue;
-    padding:55px;
+    font-size: 5vw;
     text-align: center;
 }
-th, td {
+.grid-container {
+    display: grid;
+    height: 300px;
+    align-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    background-color: none;
+    padding: 10px;
+  }
+  
+.grid-container > div {
+    background-color: gray;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
     color: white;
-    font-size: 3vw;
+  }
+h1 {
+    color: orange;
+    text-align: center;
+    text-underline-position: under;
+    font-size: 6vw;
 }
 li {
     text-align: center;
@@ -46,10 +76,22 @@ li {
 img {
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 
 /* For mobile phones: */
 [class*="flex-container"] {
     width:  100%;
 }
-
+@media only screen and (min-width: 600px) {
+    /*For Tablets:*/
+    .header {
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    /* For Desktop: */
+    .header {
+        font-size: 80px;
+    }
+}
