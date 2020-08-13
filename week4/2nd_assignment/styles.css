@@ -1,3 +1,10 @@
+body {
+    background-image: url("https://media.giphy.com/media/6wpHEQNjkd74Q/giphy.gif");
+    background-repeat: no-repeat;
+    background-position: none;
+    background-size: cover;
+    background-color: black;
+}
 
 .navbar {
     overflow: hidden;
