@@ -20,16 +20,72 @@ body {
     text-shadow: 3px 3px seashell;
 }
 .content {
-    background-color: blue;
-    border-radius:  20px;
+    font-family: "trade winds", cursive;
+    color:  red;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    font-size: 20px;
 }
 .content img {
-    position: sticky;
-    width: 250px;
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
+.content img:hover {
+           /* Start the shake animation and make the animation last for 0.5 seconds */
+        animation: shake 0.5s;
+      
+        /* When the animation is finished, start again */
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
 .sidebar2 {
-    background-color: purple;
-    border-radius:  20px;
+    font-family: "trade winds",cursive;
+    text-shadow: 1px 1px seashell;
+    text-align: center;
+    color: gray;
+    font-size: 50px;
+}
+.sidebar2 img {
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sidebar2 p:hover {
+       /* Start the shake animation and make the animation last for 0.5 seconds */
+       animation: shake 0.5s;
+      
+       /* When the animation is finished, start again */
+       animation-iteration-count: infinite;
+     }
+     
+     @keyframes shake {
+       0% { transform: translate(1px, 1px) rotate(0deg); }
+       10% { transform: translate(-1px, -2px) rotate(-1deg); }
+       20% { transform: translate(-3px, 0px) rotate(1deg); }
+       30% { transform: translate(3px, 2px) rotate(0deg); }
+       40% { transform: translate(1px, -1px) rotate(1deg); }
+       50% { transform: translate(-1px, 2px) rotate(-1deg); }
+       60% { transform: translate(-3px, 1px) rotate(0deg); }
+       70% { transform: translate(3px, 1px) rotate(-1deg); }
+       80% { transform: translate(-1px, -1px) rotate(1deg); }
+       90% { transform: translate(1px, 2px) rotate(0deg); }
+       100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 .footer {
     background-color: yellow;
