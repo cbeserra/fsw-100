@@ -1,6 +1,12 @@
 body {
     background-color: black;
 }
+.body2 {
+    background-image: url("https://cdn.hipwallpaper.com/i/28/62/HXybm2.jpg");
+    background-repeat: non-repeat;
+    background-position: none;
+    background-size: cover;
+}
 .grid-container{
     display: grid;
     grid-gap: 10px;
@@ -16,15 +22,31 @@ body {
 .sidebar {
     text-align: center;
     font-family: "trade winds", cursive;
+    color:blue;
     font-size: 25px;
     text-shadow: 3px 3px seashell;
+}
+.sidebar:hover {
+    color:red;
+    font-size: 35px;
 }
 .meats {
     text-align: center;
     font-family: "trade winds", cursive;
-    color: red;
-    font-size: 60px;
-    text-shadow: 3px 3px seashell;
+    color:red;
+    font-size: 35px;
+    text-shadow: 2px 2px black;
+}
+li {
+    color: brown;
+    font-size: 25px;
+}
+li:hover {
+    font-size:50px;
+}
+dd {
+    color: green;
+    font-size: 25px;
 }
 .content {
     font-family: "trade winds", cursive;
