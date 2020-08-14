@@ -22,13 +22,12 @@ body {
 .sidebar {
     text-align: center;
     font-family: "trade winds", cursive;
-    color:blue;
     font-size: 25px;
     text-shadow: 3px 3px seashell;
 }
-.sidebar:hover {
+.sidebar a:hover {
     color:red;
-    font-size: 35px;
+    font-size: 40px;
 }
 .meats {
     text-align: center;
@@ -117,9 +116,21 @@ dd {
        100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 .footer {
-    background-color: yellow;
-    border-radius:  20px;
+   
 }
+.grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: red;
+    padding: 4px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+  }
 
 /* For mobile phones: */
 [class*="grid-container"] {
