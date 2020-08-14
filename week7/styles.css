@@ -19,6 +19,13 @@ body {
     font-size: 25px;
     text-shadow: 3px 3px seashell;
 }
+.meats {
+    text-align: center;
+    font-family: "trade winds", cursive;
+    color: red;
+    font-size: 60px;
+    text-shadow: 3px 3px seashell;
+}
 .content {
     font-family: "trade winds", cursive;
     color:  red;
