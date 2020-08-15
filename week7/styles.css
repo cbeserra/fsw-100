@@ -1,5 +1,9 @@
 body {
-    background-color: black;
+    background-image: url("https://media.giphy.com/media/6wpHEQNjkd74Q/giphy.gif");
+            background-repeat: no-repeat;
+            background-position: none;
+            background-size: cover;
+            background-color: black;
 }
 .body2 {
     background-image: url("https://cdn.hipwallpaper.com/i/28/62/HXybm2.jpg");
@@ -7,6 +11,14 @@ body {
     background-position: none;
     background-size: cover;
 }
+.body3 {
+    background-image: url("https://i.makeagif.com/media/5-06-2015/bHEW-p.gif");
+    background-repeat: non-repeat;
+    background-position: none;
+    background-size: cover;
+    background-color: black;
+} 
+
 .grid-container{
     display: grid;
     grid-gap: 10px;
@@ -46,6 +58,13 @@ li:hover {
 dd {
     color: green;
     font-size: 25px;
+}
+.about {
+    color: yellow;
+    font-size: 25px;
+    text-align: left;
+
+
 }
 .content {
     font-family: "trade winds", cursive;
@@ -115,22 +134,19 @@ dd {
        90% { transform: translate(1px, 2px) rotate(0deg); }
        100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-.footer {
-   
-}
 .grid-container2 {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     background-color: red;
     padding: 4px;
-  }
-  .grid-item {
+}
+.grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
     font-size: 25px;
     text-align: center;
-  }
+}
 
 /* For mobile phones: */
 [class*="grid-container"] {
