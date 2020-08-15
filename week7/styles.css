@@ -18,7 +18,12 @@ body {
     background-size: cover;
     background-color: black;
 } 
-
+.body4 {
+    background-image: url(https://giphy.com/gifs/mG2pQXAWNl4Vt77Kef/html5);
+    background-repeat: repeat;
+    background-position: none;
+    background-size: cover;
+}
 .grid-container{
     display: grid;
     grid-gap: 10px;
